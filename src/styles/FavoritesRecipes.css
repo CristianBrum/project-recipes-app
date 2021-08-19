@@ -1,0 +1,138 @@
+.done-recipes-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.msg {
+  align-items: center;
+  color: rgb(54, 211, 14);
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.done-recipe-cards {
+  border: 1px solid #eee;
+  box-shadow: 2px 8px 20px #ddd;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  min-height: 150px;
+  min-width: 150px;
+  overflow: hidden;
+  padding: 10px;
+  transition: 0.5s linear;
+}
+
+.buttonfilter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-filter {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  height: 30px;
+  justify-content: center;
+  margin-top: 5px;
+  white-space: nowrap;
+  width: 110px;
+}
+
+.btn-filter:hover {
+  background-color: rgb(54, 211, 14);
+  color: white;
+  font-weight: 900;
+  outline: none;
+}
+
+.btn-filter:focus {
+  background-color: rgb(54, 211, 14);
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
+.infos {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.name {
+  align-items: center;
+  color: rgb(54, 211, 14);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.done-recipe-cards:hover {
+  box-shadow: none;
+}
+
+.recipe-image {
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  width: 140px;
+}
+
+.done-category {
+  color: rgb(126, 134, 134);
+}
+
+.tag {
+  background-color: #ffc107;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 110px;
+  overflow: hidden;
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.done-tags {
+  display: flex;
+}
+
+.date, .done-tags {
+  color: black;
+  font-weight: 500;
+  width: 125%;
+}
+
+.share, .heart {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.link {
+  color: rgb(54, 211, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

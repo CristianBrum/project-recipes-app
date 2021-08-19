@@ -1,0 +1,90 @@
+.container-login {
+  align-items: center;
+  background: white;
+  background-image: url('../images/backLogin.jpg');
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.btn-login {
+  align-items: center;
+  background-color: #eee;
+  border-radius: 6px;
+  box-shadow: 2px 8px 20px #ddd;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 320px;
+}
+
+.email, .password {
+  align-items: center;
+  background: none;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  height: 40px;
+  margin: 0 0 10px;
+  outline: none;
+  text-align: center;
+  width: 270px;
+}
+
+.email::placeholder, .password::placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.email:focus, .password:focus {
+  background-color: rgb(54, 211, 14);
+  border: none;
+  color: white;
+}
+
+.login {
+  background-color: rgb(6, 240, 15);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 35px;
+  margin-top: 10px;
+  width: 150px;
+}
+
+.login:disabled {
+  background-color: #ce5d41;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.login:hover:disabled {
+  animation: treme 0.1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes treme {
+
+  0% { margin-left: 0; }
+
+  25% { margin-left: 5px; }
+
+  50% { margin-left: 0; }
+
+  75% { margin-left: -5px; }
+
+  100% { margin-left: 0; }
+}

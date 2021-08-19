@@ -1,0 +1,50 @@
+.explore {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+}
+
+.explore button {
+  margin: 30px;
+  width: 200px;
+}
+
+.explore p {
+  color: rgb(54, 211, 14);
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+.select-dropdwon {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  background-color: white;
+  color: rgb(54, 211, 14);
+  font-size: 1rem;
+  font-weight: 900;
+  outline: none;
+  text-align-last: center;
+  width: 400px;
+}
+
+.select-dropdwon select {
+  border: none;
+  box-shadow: 2px 8px 20px #ddd;
+  height: 40px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.select-dropdwon option {
+  color: rgb(54, 211, 14);
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}

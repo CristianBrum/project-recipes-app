@@ -1,0 +1,246 @@
+.details-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.recipe-cardDetail {
+  border: 1px solid #eee;
+  box-shadow: 2px 8px 20px #ddd;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 10px;
+  transition: 0.5s linear;
+}
+
+.img-recipe {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.share-heart {
+  filter: invert(100%);
+  padding: 5px;
+  width: 100px;
+}
+
+.header-buttons {
+  background-color: rgb(54, 211, 14);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.details-header {
+  text-align: center;
+  width: 100%;
+}
+
+.details-header :nth-child( 1 ) {
+  color: rgb(54, 211, 14);
+  font-size: 0.8 rem;
+  font-weight: 900;
+  max-width: 300px;
+}
+
+.details-header :nth-child( 2 ) {
+  color: rgb(126, 134, 134);
+}
+
+.shares, .white-heart {
+  background: none;
+  border: none;
+}
+
+.link {
+  color: rgb(54, 211, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.instructions-containers h3 {
+  color: rgb(54, 211, 14);
+}
+
+.ingredients-container, .instructions-container, .video-container {
+  border: 1px solid #eee;
+  box-shadow: 2px 8px 20px #ddd;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 10px;
+  text-align: left;
+  transition: 0.5s linear;
+  width: 320px;
+}
+
+.ingredients-container h3:nth-child( 1 ), .instructions-container h3:nth-child( 1 ) {
+  color: rgb(54, 211, 14);
+}
+
+.ingredients-container ul:nth-child( 2 ) {
+  text-align: left;
+}
+
+.btn-details {
+  align-items: center;
+  background-color: rgb(54, 211, 14);
+  border: #ffc107;
+  border-radius: 6px;
+  bottom: 10px;
+  color: white;
+  font-weight: 600;
+  height: 35px;
+  justify-content: space-evenly;
+  opacity: 0.9;
+  outline: none;
+  position: fixed;
+  width: 300px;
+}
+
+.recomendation-title, .video-title {
+  color: rgb(54, 211, 14);
+  margin: 0 auto;
+  text-align: left;
+  width: 300px;
+}
+
+.btn-return {
+  background-color: rgb(54, 211, 14);
+  border: none;
+  opacity: 0.9;
+  outline: none;
+  width: 50px;
+}
+
+.button-finish {
+  align-items: center;
+  background-color: rgb(54, 211, 14);
+  border: #ffc107;
+  border-radius: 6px;
+  bottom: 10px;
+  color: white;
+  font-weight: 600;
+  height: 35px;
+  justify-content: center;
+  margin: 0 auto;
+  outline: none;
+  position: fixed;
+  width: 300px;
+}
+
+.button-finish:disabled {
+  align-items: center;
+  background-color: #ffc107;
+}
+
+.done-recep {
+  background-color: rgb(54, 211, 14);
+  border-radius: 6px;
+  bottom: 10px;
+  color: white;
+  position: fixed;
+  width: 200px;
+}
+
+.button-finish:focus {
+  background-color: rgb(54, 211, 14);
+  border: #ffc107;
+  color: white;
+  font-weight: 900;
+  outline: none;
+}
+
+.button-finish:hover:disabled {
+  animation: treme 0.1s;
+  animation-iteration-count: 3;
+}
+
+.ingredients-container input:after {
+  background-color: #d1d3d1;
+  border: 2px solid white;
+  content: '';
+  display: inline-block;
+  height: 15px;
+  left: -1px;
+  position: relative;
+  top: -2px;
+  visibility: visible;
+  width: 15px;
+}
+
+.ingredients-container input:checked:after {
+  background-color: rgb(54, 211, 14);
+  border: 2px solid white;
+  content: '';
+  display: inline-block;
+  height: 15px;
+  left: -1px;
+  position: relative;
+  top: -2px;
+  visibility: visible;
+  width: 15px;
+}
+
+.instructions-containers {
+  border: 1px solid #eee;
+  box-shadow: 2px 8px 20px #ddd;
+  flex-direction: column;
+  margin-bottom: 60px;
+  padding: 10px;
+  text-align: left;
+  transition: 0.5s linear;
+  width: 320px;
+}
+
+.titles {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  font-weight: 900;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+@keyframes treme {
+
+  0% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: 5px;
+  }
+
+  50% {
+    margin-left: 0;
+  }
+
+  75% {
+    margin-left: -5px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+.ingredients-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredients-container input {
+  margin: 5px;
+}
+
