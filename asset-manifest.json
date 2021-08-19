@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/cristianbrum.io/projects/static/css/main.8a6ba23a.chunk.css",
-    "main.js": "/cristianbrum.io/projects/static/js/main.af5e7fb9.chunk.js",
-    "main.js.map": "/cristianbrum.io/projects/static/js/main.af5e7fb9.chunk.js.map",
+    "main.js": "/cristianbrum.io/projects/static/js/main.e1023e33.chunk.js",
+    "main.js.map": "/cristianbrum.io/projects/static/js/main.e1023e33.chunk.js.map",
     "runtime-main.js": "/cristianbrum.io/projects/static/js/runtime-main.77b5a5ba.js",
     "runtime-main.js.map": "/cristianbrum.io/projects/static/js/runtime-main.77b5a5ba.js.map",
     "static/css/2.95258f03.chunk.css": "/cristianbrum.io/projects/static/css/2.95258f03.chunk.css",
-    "static/js/2.2cb22d4e.chunk.js": "/cristianbrum.io/projects/static/js/2.2cb22d4e.chunk.js",
-    "static/js/2.2cb22d4e.chunk.js.map": "/cristianbrum.io/projects/static/js/2.2cb22d4e.chunk.js.map",
+    "static/js/2.22f4fd7b.chunk.js": "/cristianbrum.io/projects/static/js/2.22f4fd7b.chunk.js",
+    "static/js/2.22f4fd7b.chunk.js.map": "/cristianbrum.io/projects/static/js/2.22f4fd7b.chunk.js.map",
     "index.html": "/cristianbrum.io/projects/index.html",
-    "precache-manifest.0e535537f3977662c5a56f6af3fcb9e8.js": "/cristianbrum.io/projects/precache-manifest.0e535537f3977662c5a56f6af3fcb9e8.js",
+    "precache-manifest.036561869ac58c0f57bff9c7445ecb70.js": "/cristianbrum.io/projects/precache-manifest.036561869ac58c0f57bff9c7445ecb70.js",
     "service-worker.js": "/cristianbrum.io/projects/service-worker.js",
     "static/css/2.95258f03.chunk.css.map": "/cristianbrum.io/projects/static/css/2.95258f03.chunk.css.map",
     "static/css/main.8a6ba23a.chunk.css.map": "/cristianbrum.io/projects/static/css/main.8a6ba23a.chunk.css.map",
-    "static/js/2.2cb22d4e.chunk.js.LICENSE.txt": "/cristianbrum.io/projects/static/js/2.2cb22d4e.chunk.js.LICENSE.txt",
+    "static/js/2.22f4fd7b.chunk.js.LICENSE.txt": "/cristianbrum.io/projects/static/js/2.22f4fd7b.chunk.js.LICENSE.txt",
     "static/media/arrowLeft.svg": "/cristianbrum.io/projects/static/media/arrowLeft.713fe29d.svg",
     "static/media/login.css": "/cristianbrum.io/projects/static/media/backLogin.e815ef6d.jpg",
     "static/media/blackHeartIcon.svg": "/cristianbrum.io/projects/static/media/blackHeartIcon.b8913346.svg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.77b5a5ba.js",
     "static/css/2.95258f03.chunk.css",
-    "static/js/2.2cb22d4e.chunk.js",
+    "static/js/2.22f4fd7b.chunk.js",
     "static/css/main.8a6ba23a.chunk.css",
-    "static/js/main.af5e7fb9.chunk.js"
+    "static/js/main.e1023e33.chunk.js"
   ]
 }
