@@ -156,7 +156,8 @@ function RecipesInProgress() {
                 </label>))}
             </section>
             <div className="instructions-containers">
-            <div data-testid="instructions">{returnedDetail.strInstructions.split('.').map((instr) => (
+            <h3>Instruções</h3>
+            <div data-testid="instructions">{returnedDetail.strInstructions.split('.').filter(r => r !== "").map((instr) => (
                 <p>{`- ${instr}.`}</p>
               ))}</div>
             </div>
@@ -178,7 +179,9 @@ function RecipesInProgress() {
   );
   return (
     renderRecipe()
+      
   );
+  
 }
 
 export default RecipesInProgress;
