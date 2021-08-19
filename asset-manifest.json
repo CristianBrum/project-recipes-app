@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/cristianbrum.io/projects/static/css/main.8a6ba23a.chunk.css",
+    "main.js": "/cristianbrum.io/projects/static/js/main.cec58785.chunk.js",
+    "main.js.map": "/cristianbrum.io/projects/static/js/main.cec58785.chunk.js.map",
+    "runtime-main.js": "/cristianbrum.io/projects/static/js/runtime-main.77b5a5ba.js",
+    "runtime-main.js.map": "/cristianbrum.io/projects/static/js/runtime-main.77b5a5ba.js.map",
+    "static/css/2.95258f03.chunk.css": "/cristianbrum.io/projects/static/css/2.95258f03.chunk.css",
+    "static/js/2.d14d7e42.chunk.js": "/cristianbrum.io/projects/static/js/2.d14d7e42.chunk.js",
+    "static/js/2.d14d7e42.chunk.js.map": "/cristianbrum.io/projects/static/js/2.d14d7e42.chunk.js.map",
+    "index.html": "/cristianbrum.io/projects/index.html",
+    "precache-manifest.6083f8cc3ffd3f04ffe8d4aee8b6fb21.js": "/cristianbrum.io/projects/precache-manifest.6083f8cc3ffd3f04ffe8d4aee8b6fb21.js",
+    "service-worker.js": "/cristianbrum.io/projects/service-worker.js",
+    "static/css/2.95258f03.chunk.css.map": "/cristianbrum.io/projects/static/css/2.95258f03.chunk.css.map",
+    "static/css/main.8a6ba23a.chunk.css.map": "/cristianbrum.io/projects/static/css/main.8a6ba23a.chunk.css.map",
+    "static/js/2.d14d7e42.chunk.js.LICENSE.txt": "/cristianbrum.io/projects/static/js/2.d14d7e42.chunk.js.LICENSE.txt",
+    "static/media/arrowLeft.svg": "/cristianbrum.io/projects/static/media/arrowLeft.713fe29d.svg",
+    "static/media/login.css": "/cristianbrum.io/projects/static/media/backLogin.e815ef6d.jpg",
+    "static/media/blackHeartIcon.svg": "/cristianbrum.io/projects/static/media/blackHeartIcon.b8913346.svg",
+    "static/media/drinkIcon.svg": "/cristianbrum.io/projects/static/media/drinkIcon.f87c47c3.svg",
+    "static/media/exploreIcon.svg": "/cristianbrum.io/projects/static/media/exploreIcon.157945ff.svg",
+    "static/media/mealIcon.svg": "/cristianbrum.io/projects/static/media/mealIcon.b27ba19e.svg",
+    "static/media/profileIcon.svg": "/cristianbrum.io/projects/static/media/profileIcon.74e487e5.svg",
+    "static/media/searchIcon.svg": "/cristianbrum.io/projects/static/media/searchIcon.db812135.svg",
+    "static/media/shareIcon.svg": "/cristianbrum.io/projects/static/media/shareIcon.06215ed4.svg",
+    "static/media/whiteHeartIcon.svg": "/cristianbrum.io/projects/static/media/whiteHeartIcon.ea3b6ba8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77b5a5ba.js",
+    "static/css/2.95258f03.chunk.css",
+    "static/js/2.d14d7e42.chunk.js",
+    "static/css/main.8a6ba23a.chunk.css",
+    "static/js/main.cec58785.chunk.js"
+  ]
+}
