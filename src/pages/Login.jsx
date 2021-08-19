@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import '../styles/login.css';
+import cibspacex from '../images/cib-spacex.png';
 
 function Login() {
-  const [user, setUser] = useState([]);
+  const [user, setUser] = useState(['']);
   const [email, setEmail] = useState(false);
   const [password, setPassword] = useState(false);
 
@@ -12,10 +13,14 @@ function Login() {
   /* aqui faço a minha validação de email usando regex */
   function handleEmail(e) {
     const Email = e;
-    const regex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+$/.test(Email);
+    const regex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(Email);
     setUser(Email);
     return setEmail(regex);
   }
+
+  useEffect(() => {
+    alert('Visualize em 360x640 ou no celular para uma melhor experiência! Email: test@gmail.com senha: 1234567');
+  }, []);
 
   /* aqui faço a minha validação do tamanho da senha */
   function handlePassword(e) {
@@ -42,6 +47,10 @@ function Login() {
 
   return (
     <div className="container-login">
+      <div className="name-project">
+      <h1>Recipe</h1>
+      <img src={cibspacex} alt="x"></img>
+      </div>
       <section className="btn-login">
         <input
           className="email"

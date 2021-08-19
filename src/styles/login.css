@@ -21,6 +21,7 @@
   margin: 0 auto;
   text-align: center;
   width: 320px;
+  opacity: 0.9;
 }
 
 .email, .password {
@@ -87,4 +88,24 @@
   75% { margin-left: -5px; }
 
   100% { margin-left: 0; }
+}
+
+.name-project {
+  display: flex;
+  background-color:#eee;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.name-project h1 {
+  font-size: 60px;
+  margin: 10px 10px 0;
+}
+
+.name-project img {
+  color: rgb(6, 240, 15);
+  width: 100px;
 }

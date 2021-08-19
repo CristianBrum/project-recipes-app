@@ -121,7 +121,9 @@ function FoodsDetails() {
             </section>
             <div className="instructions-container">
               <h3>Instruções</h3>
-              <p data-testid="instructions">{details.strInstructions}</p>
+              <div data-testid="instructions">{details.strInstructions.split('.').map((instr) => (
+                <p>{`- ${instr}.`}</p>
+              ))}</div>
             </div>
             <div className="video-container">
               <h3 className="video-title">Vídeo</h3>

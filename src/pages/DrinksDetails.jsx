@@ -57,6 +57,7 @@ function DrinksDetails() {
   const ingredientsAndMeasures = details.idDrink
     ? ingredientsDetails(details) : [];
 
+
   return (
     <section className="details-container">
       <div className="header-buttons">
@@ -115,7 +116,9 @@ function DrinksDetails() {
             </section>
             <div className="instructions-container">
               <h3>Instruções</h3>
-              <p data-testid="instructions">{details.strInstructions}</p>
+              <div data-testid="instructions">{details.strInstructions.split('.').map((instr) => (
+                <p>{`- ${instr}.`}</p>
+              ))}</div>
             </div>
             <div className="recomendation-container">
               <h3 className="recomendation-title">Recomendadas</h3>

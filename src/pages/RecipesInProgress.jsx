@@ -156,8 +156,9 @@ function RecipesInProgress() {
                 </label>))}
             </section>
             <div className="instructions-containers">
-              <h3>Instruções</h3>
-              <p data-testid="instructions">{returnedDetail.strInstructions}</p>
+            <div data-testid="instructions">{returnedDetail.strInstructions.split('.').map((instr) => (
+                <p>{`- ${instr}.`}</p>
+              ))}</div>
             </div>
           </>)}
       {!dones ? (
